@@ -5,6 +5,6 @@ This project demonstrates API testing using Postman, providing a collection of t
 - Collection of tests covering different API endpoints
 - Environment setup for easy switching between environments
 - Pre-request scripts for data setup
-- Test scripts for assertions and validations
+- Test scripts for validations
 ## API Documentation
-https://documenter.getpostman.com/view/46763324/2sB3B7QaNT
+- https://documenter.getpostman.com/view/46763324/2sB3B7QaNT
