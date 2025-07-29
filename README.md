@@ -8,3 +8,43 @@ This project demonstrates API testing using Postman, providing a collection of t
 - Test scripts for validations
 ## API Documentation
 - https://documenter.getpostman.com/view/46763324/2sB3B7QaNT
+### **Tecnoloy Used**
+- Postman
+- Newman
+### **Prerequisite**
+- Node.js
+- Newman
+- Newman html Report Library
+### **Installation**
+1. Postman: If you haven't already, [download and install Postman.](https://www.postman.com/downloads/)
+2. Clone the repository:
+ ```console 
+  git clone https://github.com/aminulislamtutul/API_Tasting_Store_Management_System_With_Newman_Report.git
+```
+3. Import the Postman collection:
+    - Open Postman.
+    - Click on the Import button.
+    - Select the file from the repository.
+4. Import the Postman environment:
+    - In Postman, click on the gear icon in the top right corner.
+    - Select **Import** and choose the file.
+5. Newman and Report Installation Process:
+    - Newman Install Command:
+     ```console 
+      npm install -g newman
+    ```
+    - Newman Html Report Install Command:
+     ```console 
+      npm install -g newman-reporter-htmlextra
+    ```
+### **Usage**
+1. Select Environment:
+    -   In Postman, select the appropriate environment (e.g., Development, Production) from the top-right dropdown.
+2. Run Collection:
+    -   Select the imported collection from the Collections sidebar.
+    -   Click on the Runner button to open the collection runner.
+    -   Select the desired environment.
+    -   Click Start Test to run the collection.
+3. View Results:
+    -   Once the tests are complete, view the results in the Runner tab.
+    -   Detailed test results can be viewed for each request.
