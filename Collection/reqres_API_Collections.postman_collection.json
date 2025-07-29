@@ -2,10 +2,9 @@
 	"info": {
 		"_postman_id": "b9260e55-0652-48b4-a785-b709df5560b5",
 		"name": "reqres_API_Collections",
-		"description": "## 👤 Author Info\n\n**Name:** Md. Md. Aminul Islam  \n**Email:** [aminulislam.khadgir@gmail.com](https://aminulislam.khadgir@gmail.com/)\n\n🙋‍♂️ Connect with Me\n\n🔗 [GitHub](https://github.com/aminulislamtutul)  \n🔗 [LinkedIn](https://www.linkedin.com/in/aminulislamtutul)\n\nBase URL:\n\n```\nhttps://reqres.in\n\n ```\n\n## 📂 Postman Environment Setup (Suggested Variables)\n\nThese variables should be configured in your **Postman environment** to allow dynamic and reusable requests.\n\n### 🧾 Booking Data Variables\n\n| Variable Name | Description | Example Value |\n| --- | --- | --- |\n| `BaseURL` | Base Url in the Rest API |  |",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "46763324",
-		"_collection_link": "https://gold-robot-3070368.postman.co/workspace/85fe5b2b-35f5-4c6e-8ec4-625f56db4d81/collection/46763324-b9260e55-0652-48b4-a785-b709df5560b5?action=share&source=collection_link&creator=46763324"
+		"_collection_link": "https://gold-robot-3070368.postman.co/workspace/Md.-Aminul-Islam's-Workspace~85fe5b2b-35f5-4c6e-8ec4-625f56db4d81/collection/46763324-b9260e55-0652-48b4-a785-b709df5560b5?action=share&source=collection_link&creator=46763324"
 	},
 	"item": [
 		{
@@ -51,7 +50,8 @@
 									"value": "1"
 								}
 							]
-						}
+						},
+						"description": "Content-Type:\n\n```\napplication/json\n\n ```\n\n## 📦 Sample GET Users\n\n``` json\n {\n     \"id\": 1,\n     \"email\": \"george.bluth@reqres.in\",\n     \"first_name\": \"George\",\n     \"last_name\": \"Bluth\",\n     \"avatar\": \"https://reqres.in/img/faces/1-image.jpg\"\n  }\n\n ```\n\nStartFragment\n\n### 🔍 Response Field Descriptions\n\n| Field | Type | Description |\n| --- | --- | --- |\n| `data.id` | Integer | Unique ID of the created Users |\n| `data.email` | String | String Email of the Users |\n| `Data.first_name` | String | String First name of the Uses |\n| `data.last_name` | String | String Last name of the Uses |\n| `data.avatar` | String | String Image of the Uses |\n\n### 📘 Notes\n\n- This response is returned when fetching a User **by ID** using `GET /users/:id`.\n    \n- Make sure to handle `404 Not Found` if the users ID does not exist."
 					},
 					"response": []
 				},
@@ -91,7 +91,7 @@
 								"3"
 							]
 						},
-						"description": "[https://reqres.in/users?page=1](https://reqres.in/users?page=1)"
+						"description": "Content-Type:\n\n```\napplication/json\n\n ```\n\n## 📦 Sample GET Single User\n\n``` json\n {\n     \"id\": 1,\n     \"email\": \"george.bluth@reqres.in\",\n     \"first_name\": \"George\",\n     \"last_name\": \"Bluth\",\n     \"avatar\": \"https://reqres.in/img/faces/1-image.jpg\"\n  }\n\n ```\n\nStartFragment\n\n### 🔍 Response Field Descriptions\n\n| Field | Type | Description |\n| --- | --- | --- |\n| `data.id` | Integer | Unique ID of the created Users |\n| `data.email` | String | String Email of the Users |\n| `Data.first_name` | String | String First name of the Uses |\n| `data.last_name` | String | String Last name of the Uses |\n| `data.avatar` | String | String Image of the Uses |\n\n### 📘 Notes\n\n- This response is returned when fetching a User **by ID** using `GET /users/:id`.\n    \n- Make sure to handle `404 Not Found` if the users ID does not exist."
 					},
 					"response": []
 				},
@@ -130,7 +130,8 @@
 								"users",
 								"20"
 							]
-						}
+						},
+						"description": "Content-Type:\n\n```\napplication/json\n\n ```\n\n### 📘 Notes\n\n- Make sure to handle `404 Not Found` if the users ID does not exist."
 					},
 					"response": []
 				},
@@ -177,7 +178,8 @@
 								"api",
 								"users"
 							]
-						}
+						},
+						"description": "Content-Type:\n\n```\napplication/json\n\n ```"
 					},
 					"response": []
 				},
@@ -225,7 +227,8 @@
 								"users",
 								"1"
 							]
-						}
+						},
+						"description": "Content-Type:\n\n```\napplication/json\n\n ```\n\n### 📦 Sample Successful Response\n\n``` json\n{\n    \"name\": \"Najmus\",\n    \"job\": \"MARN Stack Developer\",\n    \"updatedAt\": \"2025-07-29T13:44:31.277Z\"\n}\n\n ```\n\n### 🔍 Response Field Descriptions\n\n| Field | Type | Description |\n| --- | --- | --- |\n| `name` | String | String First name of the users |\n| `job` | String | String Job of the Users |\n| `updatedAt` | String | String Updated At Users |\n\n### ✅ Usage Notes\n\n- This response is returned after a successful `PUT /users/:id` request.\n    \n- Ensure that proper **authentication headers** are included for update actions."
 					},
 					"response": []
 				},
@@ -264,12 +267,13 @@
 								"users",
 								"1"
 							]
-						}
+						},
+						"description": "Content-Type:\n\n```\napplication/json\n\n\n\n ```\n\n📦 Sample Response\n\n- Message: No Content\n    \n- Status Code: 204"
 					},
 					"response": []
 				}
 			],
-			"description": "Base URL:\n\n```\nhttps://reqres.in/users?page=1\n\n ```"
+			"description": "Base URL:\n\n```\nhttps://reqres.in/\n\n ```"
 		},
 		{
 			"name": "Page_2",
@@ -314,7 +318,8 @@
 									"value": "2"
 								}
 							]
-						}
+						},
+						"description": "Content-Type:\n\n```\napplication/json\n\n ```\n\n## 📦 Sample GET Users\n\n``` json\n{\n     \"id\": 7,\n     \"email\": \"michael.lawson@reqres.in\",\n     \"first_name\": \"Michael\",\n     \"last_name\": \"Lawson\",\n     \"avatar\": \"https://reqres.in/img/faces/7-image.jpg\"\n}\n\n ```\n\nStartFragment\n\n### 🔍 Response Field Descriptions\n\n| Field | Type | Description |\n| --- | --- | --- |\n| `data.id` | Integer | Unique ID of the created Users |\n| `data.email` | String | String Email of the Users |\n| `Data.first_name` | String | String First name of the Uses |\n| `data.last_name` | String | String Last name of the Uses |\n| `data.avatar` | String | String Image of the Uses |\n\n### 📘 Notes\n\n- This response is returned when fetching a User **by ID** using `GET /users/:id`.\n    \n- Make sure to handle `404 Not Found` if the users ID does not exist."
 					},
 					"response": []
 				},
@@ -353,7 +358,8 @@
 								"users",
 								"7"
 							]
-						}
+						},
+						"description": "Content-Type:\n\n```\napplication/json\n\n ```\n\n## 📦 Sample GET Single User\n\n``` json\n {\n      \"id\": 7,\n      \"email\": \"michael.lawson@reqres.in\",\n      \"first_name\": \"Michael\",\n      \"last_name\": \"Lawson\",\n      \"avatar\": \"https://reqres.in/img/faces/7-image.jpg\"\n }\n\n ```\n\nStartFragment\n\n### 🔍 Response Field Descriptions\n\n| Field | Type | Description |\n| --- | --- | --- |\n| `data.id` | Integer | Unique ID of the created Users |\n| `data.email` | String | String Email of the Users |\n| `Data.first_name` | String | String First name of the Uses |\n| `data.last_name` | String | String Last name of the Uses |\n| `data.avatar` | String | String Image of the Uses |\n\n### 📘 Notes\n\n- This response is returned when fetching a User **by ID** using `GET /users/:id`.\n    \n- Make sure to handle `404 Not Found` if the users ID does not exist."
 					},
 					"response": []
 				},
@@ -392,7 +398,8 @@
 								"users",
 								"20"
 							]
-						}
+						},
+						"description": "Content-Type:\n\n```\napplication/json\n\n ```\n\n### 📘 Notes\n\n- Make sure to handle `404 Not Found` if the users ID does not exist."
 					},
 					"response": []
 				},
@@ -439,7 +446,8 @@
 								"api",
 								"users"
 							]
-						}
+						},
+						"description": "Content-Type:\n\n```\napplication/json\n\n ```"
 					},
 					"response": []
 				},
@@ -487,7 +495,8 @@
 								"users",
 								"8"
 							]
-						}
+						},
+						"description": "Content-Type:\n\n```\napplication/json\n\n ```\n\n### 📦 Sample Successful Response\n\n``` json\n{\n    \"name\": \"Najmus\",\n    \"job\": \"MARN Stack Developer\",\n    \"updatedAt\": \"2025-07-29T13:44:31.277Z\"\n}\n\n ```\n\n### 🔍 Response Field Descriptions\n\n| Field | Type | Description |\n| --- | --- | --- |\n| `name` | String | String First name of the users |\n| `job` | String | String Job of the Users |\n| `updatedAt` | String | String Updated At Users |\n\n### ✅ Usage Notes\n\n- This response is returned after a successful `PUT /users/:id` request.\n    \n- Ensure that proper **authentication headers** are included for update actions."
 					},
 					"response": []
 				},
@@ -526,11 +535,13 @@
 								"users",
 								"7"
 							]
-						}
+						},
+						"description": "Content-Type:\n\n```\napplication/json\n\n\n\n ```\n\n📦 Sample Response\n\n- Message: No Content\n    \n- Status Code: 204"
 					},
 					"response": []
 				}
-			]
+			],
+			"description": "Base URL:\n\n```\nhttps://reqres.in/\n\n ```"
 		}
 	]
 }
